@@ -1,0 +1,587 @@
+# Findcools
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: findcools\n"
+"POT-Creation-Date: 2015-11-17 22:51+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: iwebdc <support@iwebdc.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:12 content-none.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: archive.php:13
+msgid "<span>Daily Archives</span>"
+msgstr ""
+
+#: archive.php:14 archive.php:18 archive.php:22
+#, php-format
+msgid "<h1>%s</h1>"
+msgstr ""
+
+#: archive.php:17
+msgid "<span>Monthly Archives</span>"
+msgstr ""
+
+#: archive.php:21
+msgid "<span>Yearly Archives</span>"
+msgstr ""
+
+#: archive.php:25
+msgid "<h1>Archives</h1>"
+msgstr ""
+
+#: author.php:11
+msgid "All Posts By"
+msgstr ""
+
+#: category.php:11
+msgid "Browsing Category"
+msgstr ""
+
+#: category.php:12 search.php:12 tag.php:12
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: comments.php:6
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:6
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:6
+msgid "Comments"
+msgstr ""
+
+#: comments.php:33
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:34
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:35
+msgid "Post Comment"
+msgstr ""
+
+#: content-none.php:5
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:13
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content.php:45
+msgid "By"
+msgstr ""
+
+#: content.php:75
+msgid "Continue Reading"
+msgstr ""
+
+#: content.php:79
+msgid "Continue Reading<span class=\"more-line\"></span>"
+msgstr ""
+
+#: footer.php:33
+msgid ". All Rights Reserved. "
+msgstr ""
+
+#: footer.php:34
+msgid "http://www.iwebdc.com"
+msgstr ""
+
+#: functions.php:136
+msgid "Reply"
+msgstr ""
+
+#: functions.php:137
+msgid "Edit"
+msgstr ""
+
+#: functions.php:140
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:142
+msgid "Comment awaiting approval"
+msgstr ""
+
+#: functions.php:165
+msgid "Older Posts <i class=\"fa fa-angle-double-right\"></i>"
+msgstr ""
+
+#: functions.php:166
+msgid "<i class=\"fa fa-angle-double-left\"></i> Newer Posts"
+msgstr ""
+
+#: functions.php:205
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions/customizer/fcs_custom_controller.php:56
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:30
+#: functions/customizer/fcs_customizer_settings.php:1935
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:31
+msgid "Add your custom CSS which will overwrite the theme CSS"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:36
+msgid "Colors: Accent"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:42
+msgid "Colors: Posts"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:48
+msgid "Colors: Footer"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:54
+msgid "Colors: Sidebar"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:60
+msgid "Colors: Mobile Menu"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:66
+msgid "Colors: Top Bar"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:72
+msgid "Footer Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:78
+msgid "Social Media Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:79
+msgid "Enter your social media usernames. Icons will not show if left blank."
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:84
+msgid "Page Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:90
+msgid "Post Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:96
+msgid "Featured Area Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:102
+msgid "Top Bar Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:108
+msgid "Logo and Header Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:114
+msgid "General Settings"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:850
+msgid "Disable Responsive"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:864
+msgid "Homepage Layout"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:885
+msgid "Archive Layout"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:906
+msgid "Disable Sidebar on Homepage"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:919
+msgid "Disable Sidebar on Posts"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:933
+msgid "Disable Sidebar on Archives"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:946
+msgid "Homepage/Archive Post Summary Type"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:965
+msgid "Upload Logo"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:978
+msgid "Top Header Padding"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:991
+msgid "Bottom Header Padding"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1004
+msgid "Enable Site Tagline Under Logo"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1019
+msgid "Disable Top Bar Social Icons"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1032
+msgid "Disable Top Bar Search"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1047
+msgid "Enable Featured Slider"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1060
+msgid "Select Featured Category"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1073
+msgid "Select featured post/page IDs"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1087
+msgid "Amount of Slides"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1103
+msgid "Hide Featured Image from top of Post"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1116
+msgid "Hide Category"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1129
+msgid "Hide Date"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1142
+msgid "Hide Tags"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1155
+#: functions/customizer/fcs_customizer_settings.php:1222
+msgid "Hide Share Buttons"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1168
+msgid "Hide Author Name"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1181
+msgid "Hide Comment Link"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1194
+msgid "Hide Author Box"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1207
+msgid "Hide Related Posts Box"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1237
+msgid "Facebook"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1250
+msgid "Twitter"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1263
+msgid "Instagram"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1276
+msgid "Pinterest"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1289
+msgid "Bloglovin"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1302
+msgid "Google Plus"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1315
+msgid "Tumblr"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1328
+msgid "Youtube"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1341
+msgid "Dribbble"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1354
+msgid "Soundcloud"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1367
+msgid "Vimeo"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1380
+msgid "Linkedin (Use full URL to your Linkedin profile)"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1393
+msgid "RSS Link"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1408
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1421
+msgid "Hide Footer Share Links"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1438
+msgid "Top Bar BG"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1451
+msgid "Top Bar Menu Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1463
+msgid "Top Bar Menu Text Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1476
+msgid "Dropdown BG"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1488
+msgid "Dropdown Border Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1501
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1513
+msgid "Dropdown Text Hover BG"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1525
+msgid "Dropdown Text Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1538
+msgid "Top Bar Social Icons"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1550
+msgid "Top Bar Social Icons Hover"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1562
+msgid "Top Bar Search Magnify Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1576
+msgid "Mobile Menu BG Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1588
+msgid "Mobile Menu Link Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1600
+msgid "Mobile Menu Toggle Icon Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1614
+msgid "Sidebar Widget Title BG"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1627
+msgid "Sidebar Widget Title Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1639
+msgid "Sidebar Social Icon Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1651
+msgid "Sidebar Social Icon Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1663
+msgid "Mailchimp Widget BG Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1675
+msgid "Mailchimp Widget Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1687
+msgid "Mailchimp Widget Button BG Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1699
+msgid "Mailchimp Widget Button Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1711
+msgid "Mailchimp Widget Button BG Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1723
+msgid "Mailchimp Widget Button Text Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1737
+msgid "Footer BG Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1749
+msgid "Footer Social Icon Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1761
+msgid "Footer Social Icon Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1773
+msgid "Footer Social Separator Line"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1785
+msgid "Footer Copyright Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1797
+msgid "Footer Copyright Link Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1811
+msgid "Post Title Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1823
+msgid "Post Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1835
+msgid "Post H1-H6 Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1847
+msgid "Read More Text Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1859
+msgid "Read More Text Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1871
+msgid "Read More Underline Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1883
+msgid "Read More Underline Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1895
+msgid "Post Share Link Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1907
+msgid "Post Share Link Hover Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1921
+msgid "Accent Color"
+msgstr ""
+
+#: functions/customizer/fcs_customizer_settings.php:1969
+msgid "Content to output. Use <a href=\"#\">HTML</a> if you like."
+msgstr ""
+
+#: inc/featured/featured.php:35
+msgid "Read More"
+msgstr ""
+
+#: inc/templates/related_posts.php:24
+msgid "Related Posts"
+msgstr ""
+
+#: inc/widgets/post_widget.php:19
+msgid "A widget that displays your latest posts from all categories or a certain"
+msgstr ""
+
+#: inc/widgets/post_widget.php:25
+msgid "Findcools: Latest Posts"
+msgstr ""
+
+#: inc/widgets/post_widget.php:104
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/widgets/post_widget.php:109
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/post_widget.php:127
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:19
+msgid "A widget that displays your social icons"
+msgstr ""
+
+#: inc/widgets/social_widget.php:25
+msgid "Findcools: Social Icons"
+msgstr ""
+
+#: search.php:11
+msgid "Search results for"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search and hit enter"
+msgstr ""
+
+#: tag.php:11
+msgid "Browsing Tag"
+msgstr ""
