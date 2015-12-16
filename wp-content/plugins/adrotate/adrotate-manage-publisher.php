@@ -52,11 +52,10 @@ function adrotate_insert_input() {
 		if(isset($_POST['adrotate_maxshown'])) $maxshown = strip_tags(trim($_POST['adrotate_maxshown'], "\t\n "));
 
 		// Advanced options
-		$advertiser = $image_field = $image_dropdown = $link = $tracker = '';
+		$advertiser = $image_field = $image_dropdown = $tracker = '';
 		if(isset($_POST['adrotate_advertiser'])) $advertiser = 0;
 		if(isset($_POST['adrotate_image'])) $image_field = strip_tags(trim($_POST['adrotate_image'], "\t\n "));
 		if(isset($_POST['adrotate_image_dropdown'])) $image_dropdown = strip_tags(trim($_POST['adrotate_image_dropdown'], "\t\n "));
-		if(isset($_POST['adrotate_link'])) $link = strip_tags(trim($_POST['adrotate_link'], "\t\n "));
 		if(isset($_POST['adrotate_tracker'])) $tracker = strip_tags(trim($_POST['adrotate_tracker'], "\t\n "));
 		if(isset($_POST['adrotate_responsive'])) $responsive = strip_tags(trim($_POST['adrotate_responsive'], "\t\n "));
 		
@@ -76,8 +75,6 @@ function adrotate_insert_input() {
 			if(preg_match("/%IMAGE%/", $bannercode)) $bannercode = str_replace('%IMAGE%', '%image%', $bannercode);
 			if(preg_match("/%TITLE%/", $bannercode)) $bannercode = str_replace('%TITLE%', '%title%', $bannercode);
 			if(preg_match("/%RANDOM%/", $bannercode)) $bannercode = str_replace('%RANDOM%', '%random%', $bannercode);
-			// Replace %link% with the actual url (Deprecate $link)
-			if(strlen($link) > 0 AND preg_match("/%link%/i", $bannercode)) $bannercode = str_replace('%link%', $link, $bannercode);
 	
 			// Sort out start dates
 			if(strlen($smonth) > 0 AND !is_numeric($smonth)) 	$smonth 	= date_i18n('m');
@@ -146,7 +143,7 @@ function adrotate_insert_input() {
 			$wpdb->update($wpdb->prefix.'adrotate_schedule', array('starttime' => $startdate, 'stoptime' => $enddate, 'maxclicks' => $maxclicks, 'maximpressions' => $maxshown), array('id' => $schedule_id));
 
 			// Save the ad to the DB
-			$wpdb->update($wpdb->prefix.'adrotate', array('title' => $title, 'bannercode' => $bannercode, 'updated' => $thetime, 'author' => $author, 'imagetype' => $imagetype, 'image' => $image, 'link' => $link, 'tracker' => $tracker, 'responsive' => $responsive, 'type' => $active, 'sortorder' => $sortorder), array('id' => $id));
+			$wpdb->update($wpdb->prefix.'adrotate', array('title' => $title, 'bannercode' => $bannercode, 'updated' => $thetime, 'author' => $author, 'imagetype' => $imagetype, 'image' => $image, 'tracker' => $tracker, 'responsive' => $responsive, 'type' => $active, 'sortorder' => $sortorder), array('id' => $id));
 
 			// Determine Responsive requirement
 			$responsive_count = $wpdb->get_var("SELECT COUNT(*) as `total` FROM `".$wpdb->prefix."adrotate` WHERE `responsive` = 'Y';");

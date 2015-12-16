@@ -52,8 +52,25 @@ $data = get_option("adrotate_advert_status");
 							<tbody>
 							<tr class="first">
 								<td colspan="2">
-									<p><center><?php _e('Your gift helps ensure the continued development of AdRotate!', 'adrotate'); ?><br /><?php _e("Can't donate money? Consider writing a review instead. Thank you!", 'adrotate'); ?></center></p>
-									<p><center><a class="button-primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=paypal%40ajdg%2enet&item_name=AdRotate%20Donation&no_shipping=0&no_note=0&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&amount=5" target="_blank">Donate &euro; 5 via Paypal</a> <a class="button" target="_blank" href="https://wordpress.org/support/view/plugin-reviews/adrotate?rate=5#postform">Write review on WordPress.org</a></center></p>
+									<center><?php _e('Your donation helps to improve AdRotate. Consider writing a review if you like AdRotate. Also follow my Facebook page and twitter. Thank you!', 'adrotate-pro'); ?><br /><br />
+									<center><a class="button-primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=paypal%40ajdg%2enet&item_name=AdRotate%20Donation&no_shipping=0&no_note=0&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&amount=10" target="_blank">Donate &euro; 10 via Paypal</a> <a class="button" target="_blank" href="https://wordpress.org/support/view/plugin-reviews/adrotate?rate=5#postform">Write review on WordPress.org</a></center><br />
+								</td>
+							</tr>
+
+							<tr class="first">
+								<td class="first b">
+									<div id="fb-root"></div>
+									<script>(function(d, s, id) {
+									  var js, fjs = d.getElementsByTagName(s)[0];
+									  if (d.getElementById(id)) return;
+									  js = d.createElement(s); js.id = id;
+									  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+									  fjs.parentNode.insertBefore(js, fjs);
+									}(document, 'script', 'facebook-jssdk'));</script><center><div class="fb-like" data-href="https://www.facebook.com/Arnandegans/" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></center>
+								</td>
+							
+								<td class="b">
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><center><a href="https://twitter.com/arnandegans" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true"></a></center>
 								</td>
 							</tr>
 							</tbody>
@@ -86,7 +103,7 @@ $data = get_option("adrotate_advert_status");
 				<h3><?php _e('Get more features with AdRotate Pro', 'adrotate'); ?></h3>
 				<div class="postbox-adrotate">
 					<div class="inside">
-						<p><img src="<?php echo WP_CONTENT_URL; ?>/plugins/adrotate/images/adrotate-logo-60x60.png" alt="adrotate-logo-60x60" width="60" height="60" align="left" style="padding: 0 10px 10px 0;" /><?php _e('Benefit from extra features to reinforce your income with advertising campaigns. Make the most of your website with the powerful tools AdRotate Pro offers on top of the trusted features included in the free version.', 'adrotate'); ?> <?php _e('Want to know more about', 'adrotate'); ?> <a href="admin.php?page=adrotate-pro">AdRotate Pro</a>? <?php _e('Visit the', 'adrotate'); ?> <a href="https://ajdg.solutions/products/adrotate-for-wordpress/?pk_campaign=adrotatefree-infopage&pk_kwd=adrotate_link" target="_blank">AdRotate <?php _e('website', 'adrotate'); ?></a>.</p>
+						<p><img src="<?php echo WP_CONTENT_URL; ?>/plugins/adrotate/images/adrotate-logo-60x60.png" alt="adrotate-logo-60x60" width="60" height="60" align="left" style="padding: 0 10px 10px 0;" /><?php _e('Benefit from extra features to reinforce your income with advertising campaigns. Make the most of your website with the powerful tools AdRotate Pro offers on top of the trusted features included in the free version.', 'adrotate'); ?> <?php _e('Want to know more about', 'adrotate'); ?> <a href="admin.php?page=adrotate-pro">AdRotate Pro</a>? <?php _e('Visit the', 'adrotate'); ?> <a href="https://ajdg.solutions/products/adrotate-for-wordpress/?pk_campaign=adrotatefree-infopage" target="_blank">AdRotate <?php _e('website', 'adrotate'); ?></a>.</p>
 					</div>
 				</div>
 
@@ -120,10 +137,7 @@ $data = get_option("adrotate_advert_status");
 				<div class="postbox-adrotate">
 					<div class="inside">
 						<p><img src="<?php echo WP_CONTENT_URL; ?>/plugins/adrotate/images/arnan-jungle.jpg" alt="Arnan de Gans" width="100" height="100" align="left" class="adrotate-photo" style="margin: 0 10px 0 0;" />
-						 <a href="http://meandmymac.net/?pk_campaign=adrotatefree-infopage" title="Arnan de Gans">Arnan de Gans</a> (<a href="https://ajdg.solutions/?pk_campaign=adrotatefree-infopage" title="Arnan de Gans">AJdG Solutions</a>) - <?php _e('Premium plugins for WordPress and WooCommerce! Protect against bots without hindering real users. Need checkout solutions for your WooCommerce store?', 'adrotate'); ?></p>
-
-						<p><center><a href="https://twitter.com/arnandegans" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @arnandegans</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center></p>
+						 <a href="http://meandmymac.net/?pk_campaign=adrotatefree-infopage" title="Arnan de Gans">Arnan de Gans</a> (<a href="https://ajdg.solutions/?pk_campaign=adrotatefree-infopage" title="Arnan de Gans">AJdG Solutions</a>) - <?php _e('Premium plugins, support and services for WordPress and WooCommerce! I am a digital nomad in the Philippines. Click on my name to find out more about me and what I am doing. Thanks for your support and for using my plugins!', 'adrotate'); ?></p>
 					</div>
 				</div>
 

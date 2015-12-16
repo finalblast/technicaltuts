@@ -55,16 +55,10 @@
 .theauthor {
     display: none;
 }
-.secondary-navigation a {
-  padding-bottom: 0 !important;
-}
 @media screen and (min-width:848px){
 .sub-menu {
     margin-top: -20px !important;
 }}
-.secondary-navigation {
-    background: none repeat scroll 0 0 #bbdefb;
-}
 .mts_header_img img { float: left; margin: 0 20px; }
 #header, #header::after {
     background: #bbdefb none repeat scroll 0 0;

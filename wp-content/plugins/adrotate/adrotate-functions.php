@@ -565,7 +565,7 @@ function adrotate_evaluate_ad($ad_id) {
 	$in7days = $now + 604800;
 
 	// Fetch ad
-	$ad = $wpdb->get_row($wpdb->prepare("SELECT `id`, `bannercode`, `tracker`, `link`, `imagetype`, `image`, `responsive` FROM `".$wpdb->prefix."adrotate` WHERE `id` = %d;", $ad_id));
+	$ad = $wpdb->get_row($wpdb->prepare("SELECT `id`, `bannercode`, `tracker`, `imagetype`, `image`, `responsive` FROM `".$wpdb->prefix."adrotate` WHERE `id` = %d;", $ad_id));
 	$stoptime = $wpdb->get_var("SELECT `stoptime` FROM `".$wpdb->prefix."adrotate_schedule`, `".$wpdb->prefix."adrotate_linkmeta` WHERE `ad` = '".$ad->id."' AND `schedule` = `".$wpdb->prefix."adrotate_schedule`.`id` ORDER BY `stoptime` DESC LIMIT 1;");
 	$schedules = $wpdb->get_var("SELECT COUNT(`schedule`) FROM `".$wpdb->prefix."adrotate_linkmeta` WHERE `ad` = '".$ad->id."' AND `group` = 0 AND `user` = 0;");
 

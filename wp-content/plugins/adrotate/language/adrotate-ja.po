@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AdRotate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 23:45+0800\n"
-"PO-Revision-Date: 2015-11-16 23:45+0800\n"
+"POT-Creation-Date: 2015-12-05 00:44+0800\n"
+"PO-Revision-Date: 2015-12-05 00:44+0800\n"
 "Last-Translator: Arnan de Gans <info@ajdg.net>\n"
 "Language-Team: Arnan de Gans from AJdG Solutions <info@adrotateplugin.com>\n"
 "Language: ja_JP\n"
@@ -116,15 +116,15 @@ msgstr ""
 msgid "Unexpected error"
 msgstr ""
 
-#: adrotate-manage-publisher.php:712
+#: adrotate-manage-publisher.php:709
 msgid "AdRotate Advertiser"
 msgstr ""
 
-#: adrotate-output.php:639
+#: adrotate-output.php:637
 msgid "Oh no! Something went wrong!"
 msgstr ""
 
-#: adrotate-output.php:640
+#: adrotate-output.php:638
 #, fuzzy
 msgid ""
 "WordPress was unable to verify the authenticity of the url you have clicked. "
@@ -134,28 +134,28 @@ msgstr ""
 "手間のカスタマイズが必要など詳細にご対応致します。詳細はWEBサイトにお越しくだ"
 "さい。英語ですが。"
 
-#: adrotate-output.php:641
+#: adrotate-output.php:639
 #, fuzzy
 msgid ""
 "If you have received the url you want to visit via email, you are being "
 "tricked!"
 msgstr "このウィジェットに使いたい物を選んで下さい。"
 
-#: adrotate-output.php:642
+#: adrotate-output.php:640
 #, fuzzy
 msgid "Contact support if the issue persists:"
 msgstr ""
 "もし、この問題が解決しない場合は以下のサポートサイトで解決法を探してみてくだ"
 "さい。"
 
-#: adrotate-output.php:660
+#: adrotate-output.php:658
 #, fuzzy
 msgid ""
 "Error, Ad is not available at this time due to schedule/geolocation "
 "restrictions or does not exist!"
 msgstr "この広告は無効にされていると、サイト上で表示されません！"
 
-#: adrotate-output.php:662
+#: adrotate-output.php:660
 #, fuzzy
 msgid ""
 "Error, Ad is not available at this time due to schedule/geolocation "
@@ -164,30 +164,30 @@ msgstr ""
 "AdRotateがエラーを見つけることはできませんが、広告に間違いを表示します。広告"
 "を再度保存してください！"
 
-#: adrotate-output.php:669 adrotate-output.php:671
+#: adrotate-output.php:667 adrotate-output.php:669
 msgid ""
 "Either there are no banners, they are disabled or none qualified for this "
 "location!"
 msgstr "バナーがないか、利用不可か適応されていません。"
 
-#: adrotate-output.php:677
+#: adrotate-output.php:675
 #, fuzzy
 msgid "Error, no Ad ID set! Check your syntax!"
 msgstr "広告 - 広告IDを使ってください。"
 
-#: adrotate-output.php:683
+#: adrotate-output.php:681
 #, fuzzy
 msgid "Error, no group ID set! Check your syntax!"
 msgstr "広告グループ - グループIDを使ってください。"
 
-#: adrotate-output.php:688
+#: adrotate-output.php:686
 #, fuzzy
 msgid "Error, group does not exist! Check your syntax!"
 msgstr ""
 "あなたのウィジェットがテーマのサイドバーに整列しない場合は、このチェックボッ"
 "クスをオンにします。"
 
-#: adrotate-output.php:694
+#: adrotate-output.php:692
 msgid ""
 "There was an error locating the database tables for AdRotate. Please "
 "deactivate and re-activate AdRotate from the plugin page!!"
@@ -195,243 +195,242 @@ msgstr ""
 "AdRotateのデータベーステーブルにエラーが発生しています。プラグインを一度削除"
 "して、再登録して下さい。"
 
-#: adrotate-output.php:694
+#: adrotate-output.php:692
 msgid "If this does not solve the issue please seek support at"
 msgstr ""
 "もし、この問題が解決しない場合は以下のサポートサイトで解決法を探してみてくだ"
 "さい。"
 
-#: adrotate-output.php:700
+#: adrotate-output.php:698
 msgid "An unknown error occured."
 msgstr "理解できないエラーが起こっています。"
 
-#: adrotate-output.php:725
+#: adrotate-output.php:723
 msgid "active ad(s) expired."
 msgstr "個の広告が期限切れです。"
 
-#: adrotate-output.php:725
+#: adrotate-output.php:723
 msgid "Take action now"
 msgstr "継続する場合は対応して下さい。"
 
-#: adrotate-output.php:727
+#: adrotate-output.php:725
 msgid "active ad(s) are about to expire."
 msgstr "個の広告がまもなく期限切れです。"
 
-#: adrotate-output.php:727
+#: adrotate-output.php:725
 msgid "Check it out"
 msgstr "チェックして下さい。"
 
-#: adrotate-output.php:729
+#: adrotate-output.php:727
 msgid "active ad(s) with configuration errors."
 msgstr "個の広告が設定エラーになっています。"
 
-#: adrotate-output.php:729
+#: adrotate-output.php:727
 msgid "Solve this"
 msgstr "これを解決して下さい。"
 
-#: adrotate-output.php:731
+#: adrotate-output.php:729
 msgid "ad(s) expired."
 msgstr "個の広告が期限切れです。"
 
-#: adrotate-output.php:731
+#: adrotate-output.php:729
 msgid "ad(s) are about to expire."
 msgstr "個の広告がまもなく期限切れです。"
 
-#: adrotate-output.php:731
+#: adrotate-output.php:729
 msgid "ad(s) with configuration errors."
 msgstr "個の広告が設定エラーになっています。"
 
-#: adrotate-output.php:731
+#: adrotate-output.php:729
 msgid "Fix this as soon as possible"
 msgstr "これは出来る限り早く修正して下さい。"
 
-#: adrotate-output.php:743 dashboard/adrotatepro.php:90
-#: dashboard/adrotatepro.php:91 dashboard/adrotatepro.php:92
-#: dashboard/adrotatepro.php:93 dashboard/adrotatepro.php:102
-#: dashboard/adrotatepro.php:103 dashboard/adrotatepro.php:104
-#: dashboard/adrotatepro.php:105 dashboard/info.php:97 dashboard/info.php:98
-#: dashboard/info.php:99 dashboard/info.php:100 dashboard/info.php:109
-#: dashboard/info.php:110 dashboard/info.php:111 dashboard/info.php:112
+#: adrotate-output.php:741 dashboard/adrotatepro.php:106
+#: dashboard/adrotatepro.php:107 dashboard/adrotatepro.php:108
+#: dashboard/adrotatepro.php:109 dashboard/adrotatepro.php:118
+#: dashboard/adrotatepro.php:119 dashboard/adrotatepro.php:120
+#: dashboard/adrotatepro.php:121 dashboard/info.php:114 dashboard/info.php:115
+#: dashboard/info.php:116 dashboard/info.php:117 dashboard/info.php:126
+#: dashboard/info.php:127 dashboard/info.php:128 dashboard/info.php:129
 #: dashboard/settings/geotargeting.php:26
 #, fuzzy
 msgid "Buy now"
 msgstr "継続する場合は対応して下さい。"
 
-#: adrotate-output.php:744
+#: adrotate-output.php:742
 msgid ""
 "You've been using <strong>AdRotate</strong> for a while now. Why not upgrade "
 "to the <strong>PRO</strong> version"
 msgstr ""
 
-#: adrotate-output.php:744
+#: adrotate-output.php:742
 #, php-format
 msgid ""
 "Use discount code <b>getadrotatepro</b> for 10% off on any AdRotate license!"
 msgstr ""
 
-#: adrotate-output.php:744
+#: adrotate-output.php:742
 msgid "Thank you for your purchase!"
 msgstr ""
 
-#: adrotate-output.php:788
+#: adrotate-output.php:786
 msgid ""
 "Welcome, and thanks for using AdRotate. Everything related to AdRotate is in "
 "this menu. Check out the"
 msgstr ""
 
-#: adrotate-output.php:788
+#: adrotate-output.php:786
 msgid "manuals"
 msgstr "マニュアル（英語サイト）"
 
-#: adrotate-output.php:788 adrotate-output.php:861
+#: adrotate-output.php:786 adrotate-output.php:859
 msgid "and"
 msgstr ""
 
-#: adrotate-output.php:788
+#: adrotate-output.php:786
 #, fuzzy
 msgid "forums"
 msgstr "フォーラム"
 
-#: adrotate-output.php:821
+#: adrotate-output.php:819
 #, fuzzy
 msgid "Useful Links"
 msgstr "役に立つ情報"
 
-#: adrotate-output.php:822
+#: adrotate-output.php:820
 msgid "Useful links to learn more about AdRotate"
 msgstr ""
 
-#: adrotate-output.php:824
-#, fuzzy
-msgid "AdRotate Page"
-msgstr "AdRotate Blog"
+#: adrotate-output.php:822
+msgid "AdRotate website"
+msgstr ""
 
-#: adrotate-output.php:825
+#: adrotate-output.php:823
 #, fuzzy
 msgid "Getting Started With AdRotate"
 msgstr ""
 "通常のユーザーはAdRotateやその統計を必要としません。その為、購読ユーザーなど"
 "にはAdRotateのダッシュボード等を見せる必要がありませんので、活用して下さい。"
 
-#: adrotate-output.php:826
+#: adrotate-output.php:824
 #, fuzzy
 msgid "AdRotate manuals"
 msgstr "AdRotate Blog"
 
-#: adrotate-output.php:827
+#: adrotate-output.php:825
 #, fuzzy
 msgid "AdRotate Support Forum"
 msgstr "AdRotate Blog"
 
-#: adrotate-output.php:853
+#: adrotate-output.php:851
 #, fuzzy
 msgid "Help AdRotate Grow"
 msgstr "AdRotate Blog"
 
-#: adrotate-output.php:854
+#: adrotate-output.php:852
 msgid "Brought to you by"
 msgstr "サービス紹介"
 
-#: adrotate-output.php:861
+#: adrotate-output.php:859
 msgid ""
 "A lot of users only think to review AdRotate when something goes wrong while "
 "thousands of people use AdRotate satisfactory. Don't let this go unnoticed."
 msgstr ""
 
-#: adrotate-output.php:861
+#: adrotate-output.php:859
 msgid "If you find AdRotate useful please leave your honest"
 msgstr ""
 
-#: adrotate-output.php:861
+#: adrotate-output.php:859
 msgid "rating"
 msgstr ""
 
-#: adrotate-output.php:861
+#: adrotate-output.php:859
 #, fuzzy
 msgid "review"
 msgstr "全般レポートを見れる権限"
 
-#: adrotate-output.php:861
+#: adrotate-output.php:859
 msgid "on WordPress.org to help AdRotate grow in a positive way"
 msgstr ""
 
-#: adrotate-output.php:893
+#: adrotate-output.php:891
 #, fuzzy
 msgid "Available in AdRotate Pro"
 msgstr "AdRotate Blog"
 
-#: adrotate-output.php:893
+#: adrotate-output.php:891
 #, fuzzy
 msgid "More information..."
 msgstr "ユーザーえー助演について知りたい方はこちらから。"
 
-#: adrotate-output.php:894
+#: adrotate-output.php:892
 #, fuzzy
 msgid "This feature is available in AdRotate Pro"
 msgstr "この機能は使いません。"
 
-#: adrotate-output.php:894
+#: adrotate-output.php:892
 #, fuzzy
 msgid "Learn more"
 msgstr "ユーザーえー助演について知りたい方はこちらから。"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:221
-#: dashboard/publisher/adverts-edit.php:242
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:220
+#: dashboard/publisher/adverts-edit.php:241
 msgid "January"
 msgstr "1月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:222
-#: dashboard/publisher/adverts-edit.php:243
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:221
+#: dashboard/publisher/adverts-edit.php:242
 msgid "February"
 msgstr "2月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:223
-#: dashboard/publisher/adverts-edit.php:244
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:222
+#: dashboard/publisher/adverts-edit.php:243
 msgid "March"
 msgstr "3月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:224
-#: dashboard/publisher/adverts-edit.php:245
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:223
+#: dashboard/publisher/adverts-edit.php:244
 msgid "April"
 msgstr "4月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:225
-#: dashboard/publisher/adverts-edit.php:246
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:224
+#: dashboard/publisher/adverts-edit.php:245
 msgid "May"
 msgstr "5月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:226
-#: dashboard/publisher/adverts-edit.php:247
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:225
+#: dashboard/publisher/adverts-edit.php:246
 msgid "June"
 msgstr "6月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:227
-#: dashboard/publisher/adverts-edit.php:248
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:226
+#: dashboard/publisher/adverts-edit.php:247
 msgid "July"
 msgstr "7月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:228
-#: dashboard/publisher/adverts-edit.php:249
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:227
+#: dashboard/publisher/adverts-edit.php:248
 msgid "August"
 msgstr "8月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:229
-#: dashboard/publisher/adverts-edit.php:250
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:228
+#: dashboard/publisher/adverts-edit.php:249
 msgid "September"
 msgstr "9月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:230
-#: dashboard/publisher/adverts-edit.php:251
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:229
+#: dashboard/publisher/adverts-edit.php:250
 msgid "October"
 msgstr "10月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:231
-#: dashboard/publisher/adverts-edit.php:252
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:230
+#: dashboard/publisher/adverts-edit.php:251
 msgid "November"
 msgstr "11月"
 
-#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:232
-#: dashboard/publisher/adverts-edit.php:253
+#: adrotate-statistics.php:217 dashboard/publisher/adverts-edit.php:231
+#: dashboard/publisher/adverts-edit.php:252
 msgid "December"
 msgstr "12月"
 
@@ -570,7 +569,7 @@ msgid ""
 "AdRotate Pro."
 msgstr "この機能は使いません。"
 
-#: adrotate.php:409 adrotate.php:496 dashboard/publisher/adverts-edit.php:189
+#: adrotate.php:409 adrotate.php:496 dashboard/publisher/adverts-edit.php:188
 #: dashboard/publisher/adverts-main.php:114
 #: dashboard/publisher/groups-edit.php:75
 #: dashboard/publisher/groups-main.php:89
@@ -609,7 +608,7 @@ msgstr ""
 msgid "End"
 msgstr ""
 
-#: adrotate.php:428 dashboard/publisher/adverts-edit.php:398
+#: adrotate.php:428 dashboard/publisher/adverts-edit.php:397
 #: dashboard/publisher/groups-main.php:34
 msgid "Ads"
 msgstr "広告"
@@ -711,7 +710,7 @@ msgid ""
 "\"imagename.full.ext\". A full set of sized images is strongly recommended."
 msgstr ""
 
-#: adrotate.php:503 dashboard/publisher/adverts-edit.php:312
+#: adrotate.php:503 dashboard/publisher/adverts-edit.php:311
 msgid ""
 "For smaller size images use \".320\", \".480\", \".768\" or \".1024\" in the "
 "filename instead of \".full\" for the various viewports."
@@ -827,22 +826,23 @@ msgid ""
 "forum. Get a solution (usually) within a day."
 msgstr ""
 
-#: dashboard/adrotatepro.php:48 dashboard/info.php:119
+#: dashboard/adrotatepro.php:48 dashboard/info.php:136
 #, fuzzy
 msgid "AdRotate is brought to you by"
 msgstr "サービス紹介"
 
-#: dashboard/adrotatepro.php:52 dashboard/info.php:123
+#: dashboard/adrotatepro.php:52 dashboard/info.php:140
 msgid ""
-"Premium plugins for WordPress and WooCommerce! Protect against bots without "
-"hindering real users. Need checkout solutions for your WooCommerce store?"
+"Premium plugins, support and services for WordPress and WooCommerce! I am a "
+"digital nomad in the Philippines. Click on my name to find out more about me "
+"and what I am doing. Thanks for your support and for using my plugins!"
 msgstr ""
 
-#: dashboard/adrotatepro.php:65
+#: dashboard/adrotatepro.php:81
 msgid "Schedule all campaigns with ease"
 msgstr ""
 
-#: dashboard/adrotatepro.php:68
+#: dashboard/adrotatepro.php:84
 msgid ""
 "Schedule your adverts and set up advertising campaigns based on dates you or "
 "your advertisers specify without hassle. Seasonal adverts, weekly adverts. "
@@ -850,11 +850,11 @@ msgid ""
 "much more easy. You can set one or many schedules for adverts."
 msgstr ""
 
-#: dashboard/adrotatepro.php:72
+#: dashboard/adrotatepro.php:88
 msgid "Avoid adblockers"
 msgstr ""
 
-#: dashboard/adrotatepro.php:75
+#: dashboard/adrotatepro.php:91
 msgid ""
 "Try and avoid adblockers so you adverts get the exposure you want them to "
 "have. AdRotate Pro offers some advanced tools to deceive adblockers so your "
@@ -862,11 +862,11 @@ msgid ""
 "adverts smartly so these features reach their full potential!"
 msgstr ""
 
-#: dashboard/adrotatepro.php:79
+#: dashboard/adrotatepro.php:95
 msgid "Stay up-to-date with notifications"
 msgstr ""
 
-#: dashboard/adrotatepro.php:82
+#: dashboard/adrotatepro.php:98
 msgid ""
 "Stay in touch with Email notifications. Have AdRotate send you an alert when "
 "adverts expire or need your attention. Additionally, you can have AdRotate "
@@ -875,92 +875,92 @@ msgid ""
 "miss an expiration date again."
 msgstr ""
 
-#: dashboard/adrotatepro.php:86 dashboard/adrotatepro.php:98
-#: dashboard/info.php:93 dashboard/info.php:105
+#: dashboard/adrotatepro.php:102 dashboard/adrotatepro.php:114
+#: dashboard/info.php:110 dashboard/info.php:122
 #, fuzzy
 msgid "Buy AdRotate Professional"
 msgstr "AdRotate Blog"
 
-#: dashboard/adrotatepro.php:90 dashboard/info.php:97
+#: dashboard/adrotatepro.php:106 dashboard/info.php:114
 msgid "Single License"
 msgstr ""
 
-#: dashboard/adrotatepro.php:90 dashboard/info.php:97
+#: dashboard/adrotatepro.php:106 dashboard/info.php:114
 msgid "For one WordPress installation."
 msgstr ""
 
-#: dashboard/adrotatepro.php:91 dashboard/adrotatepro.php:103
-#: dashboard/info.php:98 dashboard/info.php:110
+#: dashboard/adrotatepro.php:107 dashboard/adrotatepro.php:119
+#: dashboard/info.php:115 dashboard/info.php:127
 msgid "Duo License"
 msgstr ""
 
-#: dashboard/adrotatepro.php:91 dashboard/info.php:98
+#: dashboard/adrotatepro.php:107 dashboard/info.php:115
 msgid "For two WordPress installations."
 msgstr ""
 
-#: dashboard/adrotatepro.php:92 dashboard/adrotatepro.php:104
-#: dashboard/info.php:99 dashboard/info.php:111
+#: dashboard/adrotatepro.php:108 dashboard/adrotatepro.php:120
+#: dashboard/info.php:116 dashboard/info.php:128
 msgid "Multi License"
 msgstr ""
 
-#: dashboard/adrotatepro.php:92 dashboard/info.php:99
+#: dashboard/adrotatepro.php:108 dashboard/info.php:116
 msgid " For up to five WordPress installations."
 msgstr ""
 
-#: dashboard/adrotatepro.php:93 dashboard/adrotatepro.php:105
-#: dashboard/info.php:100 dashboard/info.php:112
+#: dashboard/adrotatepro.php:109 dashboard/adrotatepro.php:121
+#: dashboard/info.php:117 dashboard/info.php:129
 #, fuzzy
 msgid "Developer License"
 msgstr "開発者向けデバッグ"
 
-#: dashboard/adrotatepro.php:93 dashboard/info.php:100
+#: dashboard/adrotatepro.php:109 dashboard/info.php:117
 msgid "Unlimited WordPress installations and/or networks."
 msgstr ""
 
-#: dashboard/adrotatepro.php:94 dashboard/adrotatepro.php:107
-#: dashboard/info.php:101 dashboard/info.php:114
+#: dashboard/adrotatepro.php:110 dashboard/adrotatepro.php:123
+#: dashboard/info.php:118 dashboard/info.php:131
 msgid "Compare licenses"
 msgstr ""
 
-#: dashboard/adrotatepro.php:94 dashboard/info.php:101
+#: dashboard/adrotatepro.php:110 dashboard/info.php:118
 msgid "Not sure which license is for you? Compare them..."
 msgstr ""
 
-#: dashboard/adrotatepro.php:94 dashboard/info.php:101
+#: dashboard/adrotatepro.php:110 dashboard/info.php:118
 #, fuzzy
 msgid "All Licenses"
 msgstr "すべての広告の再評価"
 
-#: dashboard/adrotatepro.php:102 dashboard/info.php:109
+#: dashboard/adrotatepro.php:118 dashboard/info.php:126
 msgid "Lifetime License"
 msgstr ""
 
-#: dashboard/adrotatepro.php:102 dashboard/info.php:109
+#: dashboard/adrotatepro.php:118 dashboard/info.php:126
 msgid "Single installation."
 msgstr ""
 
-#: dashboard/adrotatepro.php:103 dashboard/info.php:110
+#: dashboard/adrotatepro.php:119 dashboard/info.php:127
 msgid "Up to 2 installations."
 msgstr ""
 
-#: dashboard/adrotatepro.php:104 dashboard/info.php:111
+#: dashboard/adrotatepro.php:120 dashboard/info.php:128
 msgid "Up to 10 installations."
 msgstr ""
 
-#: dashboard/adrotatepro.php:105 dashboard/info.php:112
+#: dashboard/adrotatepro.php:121 dashboard/info.php:129
 msgid "Up to 25 installations or multisite networks."
 msgstr ""
 
-#: dashboard/adrotatepro.php:106 dashboard/info.php:113
+#: dashboard/adrotatepro.php:122 dashboard/info.php:130
 msgid ""
 "Subscriptions get 1 year access to updates, email support & AdRotate Geo."
 msgstr ""
 
-#: dashboard/adrotatepro.php:107 dashboard/info.php:114
+#: dashboard/adrotatepro.php:123 dashboard/info.php:131
 msgid "Not sure which license is for you?"
 msgstr ""
 
-#: dashboard/adrotatepro.php:107 dashboard/info.php:114
+#: dashboard/adrotatepro.php:123 dashboard/info.php:131
 msgid "Compare Licenses"
 msgstr ""
 
@@ -1007,37 +1007,35 @@ msgid "Support AdRotate"
 msgstr "AdRotate Blog"
 
 #: dashboard/info.php:55
-msgid "Your gift helps ensure the continued development of AdRotate!"
+msgid ""
+"Your donation helps to improve AdRotate. Consider writing a review if you "
+"like AdRotate. Also follow my Facebook page and twitter. Thank you!"
 msgstr ""
 
-#: dashboard/info.php:55
-msgid "Can't donate money? Consider writing a review instead. Thank you!"
-msgstr ""
-
-#: dashboard/info.php:64
+#: dashboard/info.php:81
 #, fuzzy
 msgid "AdRotate News and Developer Blog"
 msgstr "AdRotate Blog"
 
-#: dashboard/info.php:86
+#: dashboard/info.php:103
 #, fuzzy
 msgid "Get more features with AdRotate Pro"
 msgstr ""
 "通常のユーザーはAdRotateやその統計を必要としません。その為、購読ユーザーなど"
 "にはAdRotateのダッシュボード等を見せる必要がありませんので、活用して下さい。"
 
-#: dashboard/info.php:89
+#: dashboard/info.php:106
 msgid ""
 "Benefit from extra features to reinforce your income with advertising "
 "campaigns. Make the most of your website with the powerful tools AdRotate "
 "Pro offers on top of the trusted features included in the free version."
 msgstr ""
 
-#: dashboard/info.php:89
+#: dashboard/info.php:106
 msgid "Want to know more about"
 msgstr ""
 
-#: dashboard/info.php:89
+#: dashboard/info.php:106
 #, fuzzy
 msgid "Visit the"
 msgstr ""
@@ -1045,7 +1043,7 @@ msgstr ""
 "手間のカスタマイズが必要など詳細にご対応致します。詳細はWEBサイトにお越しくだ"
 "さい。英語ですが。"
 
-#: dashboard/info.php:89
+#: dashboard/info.php:106
 #, fuzzy
 msgid "website"
 msgstr "開発者のWEBサイトは以下です。"
@@ -1055,7 +1053,7 @@ msgid "Disabled Ads"
 msgstr "掲載不可広告"
 
 #: dashboard/publisher/adverts-disabled.php:21
-#: dashboard/publisher/adverts-edit.php:177
+#: dashboard/publisher/adverts-edit.php:176
 msgid "Activate"
 msgstr "利用可能"
 
@@ -1072,7 +1070,7 @@ msgid "Start / End"
 msgstr ""
 
 #: dashboard/publisher/adverts-disabled.php:37
-#: dashboard/publisher/adverts-edit.php:117
+#: dashboard/publisher/adverts-edit.php:116
 #: dashboard/publisher/adverts-error.php:41
 #: dashboard/publisher/adverts-main.php:41
 msgid "Title"
@@ -1178,63 +1176,63 @@ msgstr "この広告は期限が7日間ありません。"
 msgid "This ad has been disabled and does not rotate on your site!"
 msgstr "この広告は無効にされていると、サイト上で表示されません！"
 
-#: dashboard/publisher/adverts-edit.php:109
+#: dashboard/publisher/adverts-edit.php:108
 #, fuzzy
 msgid "New Advert"
 msgstr "新規追加"
 
-#: dashboard/publisher/adverts-edit.php:111
+#: dashboard/publisher/adverts-edit.php:110
 #, fuzzy
 msgid "Edit Advert"
 msgstr "編集"
 
-#: dashboard/publisher/adverts-edit.php:123
+#: dashboard/publisher/adverts-edit.php:122
 msgid "AdCode"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:128
+#: dashboard/publisher/adverts-edit.php:127
 msgid "Basic Examples:"
 msgstr "設定例："
 
-#: dashboard/publisher/adverts-edit.php:135
+#: dashboard/publisher/adverts-edit.php:134
 msgid "Useful tags"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid "Insert the advert ID Number."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid "Required when selecting a image below."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid "Insert the advert name."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid "Insert a random seed. Useful for DFP/DoubleClick type adverts."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid "Add inside the <a> tag to open advert in a new window."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid "Add inside the <a> tag to tell crawlers to ignore this link"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:137
+#: dashboard/publisher/adverts-edit.php:136
 msgid ""
 "Place the cursor in your AdCode where you want to add any of these tags and "
 "click to add it."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:142
+#: dashboard/publisher/adverts-edit.php:141
 msgid "Preview"
 msgstr "プレビュー"
 
-#: dashboard/publisher/adverts-edit.php:145
+#: dashboard/publisher/adverts-edit.php:144
 msgid ""
 "Note: While this preview is an accurate one, it might look different then it "
 "does on the website."
@@ -1242,43 +1240,43 @@ msgstr ""
 "注意：このプレビューは現設定では正確なものではありますが、ウェブ上では異なる"
 "場合があります。"
 
-#: dashboard/publisher/adverts-edit.php:146
+#: dashboard/publisher/adverts-edit.php:145
 msgid ""
 "This is because of CSS differences. Your themes CSS file is not active here!"
 msgstr ""
 "主な原因としてはCSSの設定がここでは反映されないからです。表示にCSSを利用され"
 "ている場合は実ページでご確認下さい。"
 
-#: dashboard/publisher/adverts-edit.php:151
+#: dashboard/publisher/adverts-edit.php:150
 msgid "Banner asset"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:154
+#: dashboard/publisher/adverts-edit.php:153
 msgid "WordPress media:"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:154
+#: dashboard/publisher/adverts-edit.php:153
 #, fuzzy
 msgid "Select Banner"
 msgstr "バナー画像"
 
-#: dashboard/publisher/adverts-edit.php:156
+#: dashboard/publisher/adverts-edit.php:155
 msgid "- OR -"
 msgstr "- もしくは -"
 
-#: dashboard/publisher/adverts-edit.php:158
+#: dashboard/publisher/adverts-edit.php:157
 msgid "Banner folder:"
 msgstr "画像バナー"
 
-#: dashboard/publisher/adverts-edit.php:159
+#: dashboard/publisher/adverts-edit.php:158
 msgid "No image selected"
 msgstr "画像は設定されていません。"
 
-#: dashboard/publisher/adverts-edit.php:163
+#: dashboard/publisher/adverts-edit.php:162
 msgid "Use %image% in the adcode instead of the file path."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:163
+#: dashboard/publisher/adverts-edit.php:162
 msgid ""
 "Use either the text field or the dropdown. If the textfield has content that "
 "field has priority."
@@ -1286,32 +1284,32 @@ msgstr ""
 "上記の画像リンクかドロップダウンかを利用します。画像リンクが入力されている場"
 "合はそちらが優先されます。"
 
-#: dashboard/publisher/adverts-edit.php:168
+#: dashboard/publisher/adverts-edit.php:167
 #: dashboard/settings/statistics.php:12
 msgid "Statistics"
 msgstr "統計"
 
-#: dashboard/publisher/adverts-edit.php:170
+#: dashboard/publisher/adverts-edit.php:169
 msgid "Enable click and impression tracking for this advert."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:171
+#: dashboard/publisher/adverts-edit.php:170
 msgid ""
 "Note: Clicktracking does not work for Javascript adverts such as those "
 "provided by Google AdSense/DFP/DoubleClick. HTML5/Flash adverts are not "
 "always supported."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:181
+#: dashboard/publisher/adverts-edit.php:180
 msgid "Yes, this ad will be used"
 msgstr "この広告を掲載されるように設定する"
 
-#: dashboard/publisher/adverts-edit.php:182
+#: dashboard/publisher/adverts-edit.php:181
 #, fuzzy
 msgid "No, do not show this ad anywhere"
 msgstr "表示できるデータがありません。"
 
-#: dashboard/publisher/adverts-edit.php:189
+#: dashboard/publisher/adverts-edit.php:188
 #: dashboard/publisher/adverts-main.php:114
 #: dashboard/publisher/groups-edit.php:75
 #: dashboard/publisher/groups-main.php:89
@@ -1321,275 +1319,275 @@ msgstr ""
 "通常のユーザーはAdRotateやその統計を必要としません。その為、購読ユーザーなど"
 "にはAdRotateのダッシュボード等を見せる必要がありませんので、活用して下さい。"
 
-#: dashboard/publisher/adverts-edit.php:192
-#: dashboard/publisher/adverts-edit.php:292
-#: dashboard/publisher/adverts-edit.php:387
-#: dashboard/publisher/adverts-edit.php:428
+#: dashboard/publisher/adverts-edit.php:191
+#: dashboard/publisher/adverts-edit.php:291
+#: dashboard/publisher/adverts-edit.php:386
+#: dashboard/publisher/adverts-edit.php:427
 #, fuzzy
 msgid "Save Advert"
 msgstr "保存"
 
-#: dashboard/publisher/adverts-edit.php:193
-#: dashboard/publisher/adverts-edit.php:293
-#: dashboard/publisher/adverts-edit.php:388
-#: dashboard/publisher/adverts-edit.php:429
+#: dashboard/publisher/adverts-edit.php:192
+#: dashboard/publisher/adverts-edit.php:292
+#: dashboard/publisher/adverts-edit.php:387
+#: dashboard/publisher/adverts-edit.php:428
 #: dashboard/publisher/groups-edit.php:154
 #: dashboard/publisher/groups-edit.php:301
 #: dashboard/publisher/groups-edit.php:393
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: dashboard/publisher/adverts-edit.php:196
-#: dashboard/publisher/adverts-edit.php:370
+#: dashboard/publisher/adverts-edit.php:195
+#: dashboard/publisher/adverts-edit.php:369
 #: dashboard/publisher/groups-edit.php:136
 #: dashboard/publisher/groups-edit.php:283
 msgid "Usage"
 msgstr "利用タグ"
 
-#: dashboard/publisher/adverts-edit.php:200
-#: dashboard/publisher/adverts-edit.php:374
+#: dashboard/publisher/adverts-edit.php:199
+#: dashboard/publisher/adverts-edit.php:373
 #: dashboard/publisher/groups-edit.php:140
 #: dashboard/publisher/groups-edit.php:287
 msgid "Widget"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:201
-#: dashboard/publisher/adverts-edit.php:375
+#: dashboard/publisher/adverts-edit.php:200
+#: dashboard/publisher/adverts-edit.php:374
 msgid ""
 "Drag the AdRotate widget to the sidebar you want it in, select \"Single Ad\" "
 "and enter ID"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:204
-#: dashboard/publisher/adverts-edit.php:378
+#: dashboard/publisher/adverts-edit.php:203
+#: dashboard/publisher/adverts-edit.php:377
 #: dashboard/publisher/groups-edit.php:144
 #: dashboard/publisher/groups-edit.php:291
 msgid "In a post or page"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:206
-#: dashboard/publisher/adverts-edit.php:380
+#: dashboard/publisher/adverts-edit.php:205
+#: dashboard/publisher/adverts-edit.php:379
 #: dashboard/publisher/groups-edit.php:146
 #: dashboard/publisher/groups-edit.php:293
 msgid "Directly in a theme"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:212
+#: dashboard/publisher/adverts-edit.php:211
 msgid "Schedule your advert"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:216
+#: dashboard/publisher/adverts-edit.php:215
 msgid "Start date (day/month/year)"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:237
+#: dashboard/publisher/adverts-edit.php:236
 msgid "End date (day/month/year)"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:260
+#: dashboard/publisher/adverts-edit.php:259
 msgid "Start time (hh:mm)"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:267
+#: dashboard/publisher/adverts-edit.php:266
 msgid "End time (hh:mm)"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:277
+#: dashboard/publisher/adverts-edit.php:276
 msgid "Maximum Clicks"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:278
-#: dashboard/publisher/adverts-edit.php:280
+#: dashboard/publisher/adverts-edit.php:277
+#: dashboard/publisher/adverts-edit.php:279
 msgid "Leave empty or 0 to skip this."
 msgstr "※この機能を利用しない場合は、空白か0を設定して下さい。"
 
-#: dashboard/publisher/adverts-edit.php:279
+#: dashboard/publisher/adverts-edit.php:278
 msgid "Maximum Impressions"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:284
+#: dashboard/publisher/adverts-edit.php:283
 msgid "Important"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:285
+#: dashboard/publisher/adverts-edit.php:284
 msgid ""
 "Note: Time uses a 24 hour clock. When you are used to the AM/PM system keep "
 "this in mind: If the start or end time is after lunch, add 12 hours. 2PM is "
 "14:00 hours. 6AM is 6:00 hours."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:289
+#: dashboard/publisher/adverts-edit.php:288
 msgid ""
 "Create multiple and more advanced schedules for each advert with AdRotate "
 "Pro."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:289
-#: dashboard/publisher/adverts-edit.php:324
-#: dashboard/publisher/adverts-edit.php:368
+#: dashboard/publisher/adverts-edit.php:288
+#: dashboard/publisher/adverts-edit.php:323
+#: dashboard/publisher/adverts-edit.php:367
 #: dashboard/publisher/groups-edit.php:200
 #, fuzzy
 msgid "Upgrade today"
 msgstr "本日"
 
-#: dashboard/publisher/adverts-edit.php:296
+#: dashboard/publisher/adverts-edit.php:295
 #: dashboard/publisher/groups-edit.php:157
 #, fuzzy
 msgid "Advanced"
 msgstr "設定例（高度）："
 
-#: dashboard/publisher/adverts-edit.php:297
+#: dashboard/publisher/adverts-edit.php:296
 #, fuzzy
 msgid "Everything below is optional."
 msgstr "タイトル（オプション）："
 
-#: dashboard/publisher/adverts-edit.php:301
+#: dashboard/publisher/adverts-edit.php:300
 msgid "Mobile"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:303
+#: dashboard/publisher/adverts-edit.php:302
 msgid "Show on;"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:303
+#: dashboard/publisher/adverts-edit.php:302
 msgid "Computers"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:303
+#: dashboard/publisher/adverts-edit.php:302
 msgid "Smartphones"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:303
+#: dashboard/publisher/adverts-edit.php:302
 msgid "Tablets."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:304
+#: dashboard/publisher/adverts-edit.php:303
 msgid "Also enable mobile support in the group this advert goes in."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:308
+#: dashboard/publisher/adverts-edit.php:307
 msgid "Responsive"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:310
+#: dashboard/publisher/adverts-edit.php:309
 #, fuzzy
 msgid "Enable responsive support for this advert."
 msgstr "広告の追加・編集管理"
 
-#: dashboard/publisher/adverts-edit.php:311
+#: dashboard/publisher/adverts-edit.php:310
 msgid ""
 "Upload your images to the banner folder and make sure the filename is in the "
 "following format; \"imagename.full.ext\"."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:313
+#: dashboard/publisher/adverts-edit.php:312
 #: dashboard/publisher/adverts-report.php:58
 #: dashboard/publisher/groups-report.php:64
 msgid "Note:"
 msgstr "注意："
 
-#: dashboard/publisher/adverts-edit.php:313
+#: dashboard/publisher/adverts-edit.php:312
 msgid ""
 "This feature will not be developed any further. Consider switching to the "
 "Mobile feature in AdRotate Pro as seen above!"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:317
+#: dashboard/publisher/adverts-edit.php:316
 #: dashboard/publisher/groups-edit.php:194
 msgid "Sortorder"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:319
+#: dashboard/publisher/adverts-edit.php:318
 #: dashboard/publisher/groups-edit.php:196
 msgid "For administrative purposes set a sortorder."
 msgstr "管理目的で順序を設定できます。"
 
-#: dashboard/publisher/adverts-edit.php:319
+#: dashboard/publisher/adverts-edit.php:318
 msgid "Leave empty or 0 to skip this. Will default to ad id."
 msgstr "空欄か0にすると解除されます。その場合はad idが適用されます。"
 
-#: dashboard/publisher/adverts-edit.php:324
+#: dashboard/publisher/adverts-edit.php:323
 msgid ""
 "With AdRotate Pro you can easily select which devices the advert should show "
 "on!"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:326
+#: dashboard/publisher/adverts-edit.php:325
 msgid "Geo Targeting in AdRotate Pro"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:327
+#: dashboard/publisher/adverts-edit.php:326
 msgid ""
 "Assign the advert to a group and enable that group to use Geo Targeting."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:331
+#: dashboard/publisher/adverts-edit.php:330
 msgid "Cities/States"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:334
+#: dashboard/publisher/adverts-edit.php:333
 msgid ""
 "A comma separated list of cities (or the Metro ID) and/or states (Also the "
 "states ISO codes are supported)"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:334
+#: dashboard/publisher/adverts-edit.php:333
 msgid ""
 "AdRotate does not check the validity of names so make sure you spell them "
 "correctly!"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:338
+#: dashboard/publisher/adverts-edit.php:337
 msgid "Countries"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:363
+#: dashboard/publisher/adverts-edit.php:362
 #, fuzzy
 msgid "Select the countries you want the adverts to show in."
 msgstr "このウィジェットに使いたい物を選んで下さい。"
 
-#: dashboard/publisher/adverts-edit.php:363
+#: dashboard/publisher/adverts-edit.php:362
 msgid "Cities take priority and will be filtered first."
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:368
+#: dashboard/publisher/adverts-edit.php:367
 msgid "Target your audience with Geo Targeting in AdRotate Pro"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:392
+#: dashboard/publisher/adverts-edit.php:391
 msgid "Select Groups"
 msgstr "グループを選択"
 
-#: dashboard/publisher/adverts-edit.php:397
+#: dashboard/publisher/adverts-edit.php:396
 #, fuzzy
 msgid "ID - Name"
 msgstr "名前"
 
-#: dashboard/publisher/adverts-edit.php:407
+#: dashboard/publisher/adverts-edit.php:406
 #: dashboard/publisher/groups-main.php:60
 #: dashboard/settings/geotargeting.php:39
 #, fuzzy
 msgid "Default"
 msgstr "基本は10となっています。この機能を無効にする場合は0にして下さい。"
 
-#: dashboard/publisher/adverts-edit.php:408
+#: dashboard/publisher/adverts-edit.php:407
 #: dashboard/publisher/groups-main.php:61
 msgid "Dynamic"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:408
+#: dashboard/publisher/adverts-edit.php:407
 #: dashboard/publisher/groups-main.php:61
 #, fuzzy
 msgid "second rotation"
 msgstr "バナーがないか、利用不可か適応されていません。"
 
-#: dashboard/publisher/adverts-edit.php:409
+#: dashboard/publisher/adverts-edit.php:408
 #: dashboard/publisher/groups-main.php:62
 #, fuzzy
 msgid "Block"
 msgstr "ブロック管理"
 
-#: dashboard/publisher/adverts-edit.php:409
+#: dashboard/publisher/adverts-edit.php:408
 #: dashboard/publisher/groups-main.php:62
 #, fuzzy
 msgid "grid"
@@ -1597,18 +1595,18 @@ msgstr ""
 "広告に表組みを指定します。2と2を入力すると2行2列になります。（初期設定は2行2"
 "列です。）"
 
-#: dashboard/publisher/adverts-edit.php:410
+#: dashboard/publisher/adverts-edit.php:409
 #: dashboard/publisher/groups-edit.php:202
 #: dashboard/publisher/groups-main.php:63
 #, fuzzy
 msgid "Post Injection"
 msgstr "投稿及びページ内掲載する場合："
 
-#: dashboard/publisher/adverts-edit.php:411
+#: dashboard/publisher/adverts-edit.php:410
 msgid "Geolocation"
 msgstr ""
 
-#: dashboard/publisher/adverts-edit.php:417
+#: dashboard/publisher/adverts-edit.php:416
 #: dashboard/publisher/groups-edit.php:61
 #: dashboard/publisher/groups-main.php:70
 #, fuzzy
@@ -2151,90 +2149,100 @@ msgid "Some options are only available in AdRotate Pro!"
 msgstr ""
 
 #: dashboard/settings/general.php:16
-msgid "Text widgets"
+msgid "Shortcode in widgets"
 msgstr ""
 
 #: dashboard/settings/general.php:17
 msgid ""
-"Enable if your theme does not support shortcodes in the WordPress text "
-"widget."
+"Enable this option to if your theme does not support shortcodes in the "
+"WordPress text widget."
 msgstr ""
 
 #: dashboard/settings/general.php:20
-msgid "Dynamic mode for Mobile"
+msgid "Disable live preview"
 msgstr ""
 
 #: dashboard/settings/general.php:21
 msgid ""
-"Disable dynamic mode in groups for mobile devices if you notice skipping or "
-"jumping content."
+"Enable this option if you have faulty adverts that overflow their designated "
+"area while creating/editing adverts."
 msgstr ""
 
 #: dashboard/settings/general.php:24
-msgid "Load jQuery"
+msgid "Disable dynamic mode"
 msgstr ""
 
 #: dashboard/settings/general.php:25
 msgid ""
-"Enable if your theme does not load jQuery. jQuery is required for dynamic "
-"groups, statistics and some other features."
+"Enable this option to disable dynamic mode in groups for mobile devices if "
+"you notice skipping or jumpy content."
 msgstr ""
 
 #: dashboard/settings/general.php:28
-msgid "Load scripts in footer?"
+msgid "Load jQuery"
 msgstr ""
 
 #: dashboard/settings/general.php:29
 msgid ""
-"Enable if you want to load all AdRotate Javascripts in the footer of your "
-"site."
+"Enable this option if your theme does not load jQuery. jQuery is required "
+"for dynamic groups, statistics and some other features."
 msgstr ""
 
 #: dashboard/settings/general.php:32
+msgid "Load scripts in footer?"
+msgstr ""
+
+#: dashboard/settings/general.php:33
+msgid ""
+"Enable this option if you want to load all AdRotate Javascripts in the "
+"footer of your site."
+msgstr ""
+
+#: dashboard/settings/general.php:36
 msgid "Adblock disguise"
 msgstr ""
 
-#: dashboard/settings/general.php:34
+#: dashboard/settings/general.php:38
 msgid "Leave empty to disable. Use only lowercaps letters. For example:"
 msgstr ""
 
-#: dashboard/settings/general.php:35
+#: dashboard/settings/general.php:39
 msgid ""
 "Try and avoid adblock plugins in most modern browsers when using shortcodes."
 msgstr ""
 
-#: dashboard/settings/general.php:35
+#: dashboard/settings/general.php:39
 msgid ""
 "To also apply this feature to widgets, use a text widget with a shortcode "
 "instead of the AdRotate widget."
 msgstr ""
 
-#: dashboard/settings/general.php:35
+#: dashboard/settings/general.php:39
 msgid ""
 "Avoid the use of obvious keywords or filenames in your adverts or this "
 "feature will have little effect!"
 msgstr ""
 
-#: dashboard/settings/general.php:40
+#: dashboard/settings/general.php:44
 #, fuzzy
 msgid "Banner Folder"
 msgstr "画像バナー"
 
-#: dashboard/settings/general.php:41
+#: dashboard/settings/general.php:45
 #, fuzzy
 msgid "Set a location where your banner images will be stored."
 msgstr "バナーがないか、利用不可か適応されていません。"
 
-#: dashboard/settings/general.php:44
+#: dashboard/settings/general.php:48
 #, fuzzy
 msgid "Location"
 msgstr "バナーがないか、利用不可か適応されていません。"
 
-#: dashboard/settings/general.php:46
+#: dashboard/settings/general.php:50
 msgid "(Default: wp-content/banners/)."
 msgstr ""
 
-#: dashboard/settings/general.php:47
+#: dashboard/settings/general.php:51
 #, fuzzy
 msgid ""
 "To try and trick ad blockers you could set the folder to something crazy "
@@ -2243,44 +2251,44 @@ msgstr ""
 "AdRotateがエラーを見つけることはできませんが、広告に間違いを表示します。広告"
 "を再度保存してください！"
 
-#: dashboard/settings/general.php:48
+#: dashboard/settings/general.php:52
 #, fuzzy
 msgid ""
 "This folder will not be automatically created if it doesn't exist. AdRotate "
 "will show errors when the folder is missing."
 msgstr "画像バナー"
 
-#: dashboard/settings/general.php:53
+#: dashboard/settings/general.php:57
 #, fuzzy
 msgid "Bot filter"
 msgstr "ユーザーエージェントフィルター"
 
-#: dashboard/settings/general.php:54
+#: dashboard/settings/general.php:58
 msgid "The bot filter is used for the AdRotate stats tracker."
 msgstr ""
 
-#: dashboard/settings/general.php:57
+#: dashboard/settings/general.php:61
 msgid "User-Agent Filter"
 msgstr "ユーザーエージェントフィルター"
 
-#: dashboard/settings/general.php:60
+#: dashboard/settings/general.php:64
 msgid ""
 "A comma separated list of keywords. Filter out bots/crawlers/user-agents."
 msgstr ""
 
-#: dashboard/settings/general.php:61
+#: dashboard/settings/general.php:65
 msgid ""
 "Keep in mind that this might give false positives. The word 'fire' also "
 "matches 'firefox', but not vice-versa. So be careful!"
 msgstr ""
 
-#: dashboard/settings/general.php:62
+#: dashboard/settings/general.php:66
 msgid ""
 "Only words with alphanumeric characters and [ - _ ] are allowed. All other "
 "characters are stripped out."
 msgstr ""
 
-#: dashboard/settings/general.php:63
+#: dashboard/settings/general.php:67
 msgid ""
 "Additionally to the list specified here, empty User-Agents are blocked as "
 "well."
@@ -2288,11 +2296,11 @@ msgstr ""
 "さらに、ここで指定したリストには、空のユーザーエージェントも同様にブロックさ"
 "れます。"
 
-#: dashboard/settings/general.php:63
+#: dashboard/settings/general.php:67
 msgid "Learn more about"
 msgstr "ユーザーえー助演について知りたい方はこちらから。"
 
-#: dashboard/settings/general.php:63
+#: dashboard/settings/general.php:67
 msgid "user-agents"
 msgstr "ユーザーエージェント[英語]"
 
@@ -2974,6 +2982,10 @@ msgstr "基本は10となっています。この機能を無効にする場合�
 msgid ""
 "This number may not be empty, be lower than 60 or exceed 86400 (24 hours)."
 msgstr "この数字は、0やマイナスや3600以上ではいけません。"
+
+#, fuzzy
+#~ msgid "AdRotate Page"
+#~ msgstr "AdRotate Blog"
 
 #, fuzzy
 #~ msgid "Find out more"

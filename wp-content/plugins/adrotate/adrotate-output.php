@@ -23,7 +23,7 @@ function adrotate_ad($banner_id, $individual = true, $group = null, $site = 0) {
 	$output = '';
 
 	if($banner_id) {			
-		$banner = $wpdb->get_row($wpdb->prepare("SELECT `id`, `title`, `bannercode`, `tracker`, `link`, `image`, `responsive` FROM `{$wpdb->prefix}adrotate` WHERE `id` = %d AND (`type` = 'active' OR `type` = '2days' OR `type` = '7days');", $banner_id));
+		$banner = $wpdb->get_row($wpdb->prepare("SELECT `id`, `title`, `bannercode`, `tracker`, `image`, `responsive` FROM `{$wpdb->prefix}adrotate` WHERE `id` = %d AND (`type` = 'active' OR `type` = '2days' OR `type` = '7days');", $banner_id));
 
 		if($banner) {
 			if($adrotate_debug['general'] == true) {
@@ -42,7 +42,7 @@ function adrotate_ad($banner_id, $individual = true, $group = null, $site = 0) {
 			$image = str_replace('%folder%', $adrotate_config['banner_folder'], $banner->image);
 
 			if($individual == true) $output .= '<div class="a-single a-'.$banner->id.'">';
-			$output .= adrotate_ad_output($banner->id, 0, $banner->title, $banner->bannercode, $banner->tracker, $banner->link, $image, $banner->responsive);
+			$output .= adrotate_ad_output($banner->id, 0, $banner->title, $banner->bannercode, $banner->tracker, $image, $banner->responsive);
 			if($individual == true) $output .= '</div>';
 
 			if($adrotate_config['stats'] == 1 AND $banner->tracker == "Y") {
@@ -95,7 +95,6 @@ function adrotate_group($group_ids, $fallback = 0, $weight = 0, $site = 0) {
 					`{$wpdb->prefix}adrotate`.`id`, 
 					`{$wpdb->prefix}adrotate`.`title`, 
 					`{$wpdb->prefix}adrotate`.`bannercode`, 
-					`{$wpdb->prefix}adrotate`.`link`, 
 					`{$wpdb->prefix}adrotate`.`image`, 
 					`{$wpdb->prefix}adrotate`.`responsive`, 
 					`{$wpdb->prefix}adrotate`.`tracker`, 
@@ -158,7 +157,7 @@ function adrotate_group($group_ids, $fallback = 0, $weight = 0, $site = 0) {
 								$image = str_replace('%folder%', $adrotate_config['banner_folder'], $banner->image);
 	
 								$output .= '<div class="g-dyn a-'.$banner->id.' c-'.$i.'">';
-								$output .= $before.adrotate_ad_output($banner->id, $group->id, $banner->title, $banner->bannercode, $banner->tracker, $banner->link, $image, $banner->responsive).$after;
+								$output .= $before.adrotate_ad_output($banner->id, $group->id, $banner->title, $banner->bannercode, $banner->tracker, $image, $banner->responsive).$after;
 								$output .= '</div>';
 								$i++;
 							}
@@ -174,7 +173,7 @@ function adrotate_group($group_ids, $fallback = 0, $weight = 0, $site = 0) {
 							$image = str_replace('%folder%', $adrotate_config['banner_folder'], $selected[$banner_id]->image);
 
 							$output .= '<div class="g-col b-'.$group->id.' a-'.$selected[$banner_id]->id.'">';
-							$output .= $before.adrotate_ad_output($selected[$banner_id]->id, $group->id, $selected[$banner_id]->title, $selected[$banner_id]->bannercode, $selected[$banner_id]->tracker, $selected[$banner_id]->link, $image, $selected[$banner_id]->responsive).$after;
+							$output .= $before.adrotate_ad_output($selected[$banner_id]->id, $group->id, $selected[$banner_id]->title, $selected[$banner_id]->bannercode, $selected[$banner_id]->tracker, $image, $selected[$banner_id]->responsive).$after;
 							$output .= '</div>';
 
 							if($columns == $group->gridcolumns AND $i != $block_count) {
@@ -196,7 +195,7 @@ function adrotate_group($group_ids, $fallback = 0, $weight = 0, $site = 0) {
 						$image = str_replace('%folder%', $adrotate_config['banner_folder'], $selected[$banner_id]->image);
 
 						$output .= '<div class="g-single a-'.$selected[$banner_id]->id.'">';
-						$output .= $before.adrotate_ad_output($selected[$banner_id]->id, $group->id, $selected[$banner_id]->title, $selected[$banner_id]->bannercode, $selected[$banner_id]->tracker, $selected[$banner_id]->link, $image, $selected[$banner_id]->responsive).$after;
+						$output .= $before.adrotate_ad_output($selected[$banner_id]->id, $group->id, $selected[$banner_id]->title, $selected[$banner_id]->bannercode, $selected[$banner_id]->tracker, $image, $selected[$banner_id]->responsive).$after;
 						$output .= '</div>';
 
 						if($adrotate_config['stats'] == 1){
@@ -371,7 +370,7 @@ function adrotate_preview($banner_id) {
 
 		if($banner) {
 			$image = str_replace('%folder%', '/wp-content/banners/', $banner->image);		
-			$output = adrotate_ad_output($banner->id, 0, $banner->title, $banner->bannercode, $banner->tracker, $banner->link, $image, 'N');
+			$output = adrotate_ad_output($banner->id, 0, $banner->title, $banner->bannercode, $banner->tracker, $image, 'N');
 		} else {
 			$output = adrotate_error('ad_expired');
 		}
@@ -386,16 +385,15 @@ function adrotate_preview($banner_id) {
  Name:      adrotate_ad_output
 
  Purpose:   Prepare the output for viewing
- Receive:   $id, $group, $bannercode, $tracker, $link, $image, $responsive
+ Receive:   $id, $group, $bannercode, $tracker, $image, $responsive
  Return:    $banner_output
  Since:		3.0
 -------------------------------------------------------------*/
-function adrotate_ad_output($id, $group = 0, $name, $bannercode, $tracker, $link, $image, $responsive) {
+function adrotate_ad_output($id, $group = 0, $name, $bannercode, $tracker, $image, $responsive) {
 	global $blog_id, $adrotate_debug, $adrotate_config;
 
 	$banner_output = $bannercode;
 	$banner_output = stripslashes(htmlspecialchars_decode($banner_output, ENT_QUOTES));
-	$banner_output = str_replace('%link%', $link, $banner_output);
 
 	if($adrotate_config['stats'] > 0) {
 		if(empty($blog_id) or $blog_id == '') {
@@ -821,8 +819,8 @@ function adrotate_help_info() {
         'title' => __('Useful Links'),
         'content' => '<h4>'.__('Useful links to learn more about AdRotate', 'adrotate').'</h4>'.
 			'<ul>'.
-			'<li><a href="https://ajdg.solutions/products/adrotate-for-wordpress/?pk_campaign=adrotatefree-helptab" target="_blank">'.__('AdRotate Page', 'adrotate').'</a>.</li>'.
-			'<li><a href="https://ajdg.solutions/manuals/adrotate-manuals/getting-started-with-adrotate/?pk_campaign=adrotatefree-helptab?pk_campaign=adrotatefree-helptab" target="_blank">'.__('Getting Started With AdRotate', 'adrotate').'</a>.</li>'.
+			'<li><a href="https://ajdg.solutions/products/adrotate-for-wordpress/?pk_campaign=adrotatefree-helptab" target="_blank">'.__('AdRotate website', 'adrotate').'</a>.</li>'.
+			'<li><a href="https://ajdg.solutions/manuals/adrotate-manuals/getting-started-with-adrotate/?pk_campaign=adrotatefree-helptab" target="_blank">'.__('Getting Started With AdRotate', 'adrotate').'</a>.</li>'.
 			'<li><a href="https://ajdg.solutions/manuals/adrotate-manuals/?pk_campaign=adrotatefree-helptab" target="_blank">'.__('AdRotate manuals', 'adrotate').'</a>.</li>'.
 			'<li><a href="https://ajdg.solutions/forums/forum/adrotate-for-wordpress/?pk_campaign=adrotatefree-helptab" target="_blank">'.__('AdRotate Support Forum', 'adrotate').'</a>.</li>'.
 			'</ul>'
@@ -832,7 +830,7 @@ function adrotate_help_info() {
         'id' => 'adrotate_thanks',
         'title' => 'Thank You',
         'content' => '<h4>Thank you for using AdRotate</h4><p>AdRotate is growing to be one of the most popular WordPress plugins for Advertising and is a household name for many companies around the world. AdRotate wouldn\'t be possible without your support and my life wouldn\'t be what it is today without your help.</p><p><em>- Arnan</em></p>'.
-        '<p><strong>Add me:</strong> <a href="http://twitter.com/arnandegans/" target="_blank">Twitter</a>, <a href="https://www.facebook.com/adegans" target="_blank">Facebook</a>. <strong>Business:</strong> <a href="https://ajdg.solutions/?pk_campaign=adrotatefree-helptab&pk_kwd=ajdgsolutions" target="_blank">ajdg.solutions</a> <strong>Blog:</strong> <a href="http://meandmymac.net/?pk_campaign=adrotatefree-helptab&pk_kwd=meandmymac" target="_blank">meandmymac.net</a> and <strong>adventure:</strong> <a href="http://meandmymac.net/?pk_campaign=adrotatefree-helptab" target="_blank">meandmymac.net</a>.</p>'
+        '<p><strong>Add me:</strong> <a href="http://twitter.com/arnandegans/" target="_blank">Twitter</a>, <a href="https://www.facebook.com/Arnandegans/" target="_blank">Facebook</a>. <strong>Business:</strong> <a href="https://ajdg.solutions/?pk_campaign=adrotatefree-helptab" target="_blank">ajdg.solutions</a> <strong>Blog:</strong> <a href="http://meandmymac.net/?pk_campaign=adrotatefree-helptab" target="_blank">meandmymac.net</a>.</p>'
 		)
     );
 }

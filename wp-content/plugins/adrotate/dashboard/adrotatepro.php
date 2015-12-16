@@ -49,10 +49,26 @@
 				<div class="postbox-adrotate">
 					<div class="inside">
 						<p><img src="<?php echo WP_CONTENT_URL; ?>/plugins/adrotate/images/arnan-jungle.jpg" alt="Arnan de Gans" width="100" height="100" align="left" class="adrotate-photo" style="margin: 0 10px 0 0;" />
-						 <a href="http://www.floatingcoconut.net/?pk_campaign=adrotatefree-infopage" title="Arnan de Gans">Arnan de Gans</a> (<a href="https://ajdg.solutions/?pk_campaign=adrotatefree-infopage" title="Arnan de Gans">AJdG Solutions</a>) - <?php _e('Premium plugins for WordPress and WooCommerce! Protect against bots without hindering real users. Need checkout solutions for your WooCommerce store?', 'adrotate'); ?></p>
-
-						<p><center><a href="https://twitter.com/arnandegans" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @arnandegans</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></center></p>
+						 <a href="http://meandmymac.net/?pk_campaign=adrotatefree-propage" title="Arnan de Gans">Arnan de Gans</a> (<a href="https://ajdg.solutions/?pk_campaign=adrotatefree-propage" title="Arnan de Gans">AJdG Solutions</a>) - <?php _e('Premium plugins, support and services for WordPress and WooCommerce! I am a digital nomad in the Philippines. Click on my name to find out more about me and what I am doing. Thanks for your support and for using my plugins!', 'adrotate'); ?></p>
+						<table width="100%">
+							<tr class="first">
+								<td class="first b">
+									<div id="fb-root"></div>
+									<script>(function(d, s, id) {
+									  var js, fjs = d.getElementsByTagName(s)[0];
+									  if (d.getElementById(id)) return;
+									  js = d.createElement(s); js.id = id;
+									  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+									  fjs.parentNode.insertBefore(js, fjs);
+									}(document, 'script', 'facebook-jssdk'));</script><center><div class="fb-like" data-href="https://www.facebook.com/Arnandegans/" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></center>
+								</td>
+							
+								<td class="b">
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><center><a href="https://twitter.com/arnandegans" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true"></a></center>
+								</td>
+							</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 

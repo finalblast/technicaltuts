@@ -37,7 +37,6 @@ function adrotate_export_ads($ids, $format) {
 				'bannercode' => stripslashes($single['bannercode']),
 				'imagetype' => $single['imagetype'],
 				'image' => $single['image'],
-				'link' => $single['link'],
 				'tracker' => $single['tracker'],
 				'mobile' => $single['mobile'],
 				'tablet' => $single['tablet'],
@@ -64,7 +63,6 @@ function adrotate_export_ads($ids, $format) {
 			$node->addChild('bannercode', $ad['bannercode']);
 			$node->addChild('imagetype', $ad['imagetype']);
 			$node->addChild('image', $ad['image']);
-			$node->addChild('link', $ad['link']);
 			$node->addChild('tracker', $ad['tracker']);
 			$node->addChild('mobile', $ad['mobile']);
 			$node->addChild('tablet', $ad['tablet']);
